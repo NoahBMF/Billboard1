@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+    margin: 0;
+    background-color: aliceblue;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: rgb(52, 59, 156);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 225px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+  
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 18px;
+    padding-right: 200px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.serv {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 80px;
+    padding-left: 240px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+  
+.pagination-button {
+    font-size: 14px;
+    padding: 6px 12px;
+    margin: 0 2px;
+    color: #007bff;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+  
+.pagination-button:hover:not(.active) {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
+  
+.pagination-button.active {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    cursor: default;
+}
+  
+.pagination-button.disabled {
+    color: #6c757d;
+    background-color: #fff;
+    border-color: #dee2e6;
+    cursor: not-allowed;
+}
+  
+.pagination-button.previous,
+.pagination-button.next {
+    font-size: 14px;
+    padding: 6px 12px;
+    margin: 0 2px;
+    color: #007bff;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+  
+.pagination-button.previous:hover:not(.disabled),
+.pagination-button.next:hover:not(.disabled) {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
+  
+.pagination-button.previous:disabled,
+.pagination-button.next:disabled {
+    color: #6c757d;
+    background-color: #fff;
+    border-color: #dee2e6;
+    cursor: not-allowed;
+}
+
+footer {
+    margin-top: 80px;
+    background-color: #fff;
+    color: rgb(42, 100, 177);
+    height: 200px;
+  }
+  
+  .footer-container {
+    padding-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .footer-column {
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-logo img {
+    width: 70%;
+    padding-top: 10px;
+    height: 55px;
+  }
+  
+  .footer-contact p {
+    color: black;
+    margin: 0;
+    padding-top: 25px;
+  }
+  
+  .footer-contact a,
+  .footer-links img {
+    height: 40px;
+    padding-top: 25px;
+  }
+  
+  .footer-links a {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding-top: 25px;
+  }
+  
+  .footer-links img {
+    width: 40px;
+    height: 60px;
+    justify-content: space-between;
+}
+  
+#appstore {
+    padding-right: 160px;
+}
+
+#insta {
+    padding-right: 50px;
+}
